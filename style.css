@@ -1,0 +1,41 @@
+canvas {
+border:5px solid rgb(249, 0, 100);
+}
+
+body{
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h3 {
+font-family: cursive;
+font-size: 32px!important;
+border-radius: 10px!important;
+}
+
+.btn-danger:hover{
+background-color: gold;
+color: blueviolet;
+}
+
+button {
+font-family: cursive;
+font-size: 26px!important;
+border-radius: 10px!important;
+}
+   
+.btn-primary:hover{
+background-color: orchid;
+color: rgb(32, 0, 128);
+}
+
+canvas{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 4px 3px 38px red;}
+to{box-shadow: 4px 3px 38px yellow;}
+}
